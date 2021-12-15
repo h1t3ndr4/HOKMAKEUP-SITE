@@ -16,13 +16,16 @@
     height: 100%;
     width: 100%;
 }
-
+#topDiv>div{
+    margin-left: 4.8em;
+}
 #topDiv>div>a {
     text-decoration: none;
     font-size: 12px;
     font-family: Poppins, sans-serif;
     font-weight: 400;
     color: #141414;
+    /* margin-left: 30px; */
     padding: 10px 15px;
 }
 #topDiv>div>h1 {
@@ -40,11 +43,7 @@
 
 /* css for filter side start here ..... */
 .filter{
-    /* border: 1px solid black; */
-    margin-left: 50px;
-    font-family: Montserrat, sans-serif;
-
-    
+    font-family: Montserrat, sans-serif; 
     
 }
 .headText{
@@ -80,9 +79,10 @@
 
 /* css for product side Start here.... */
 .productMain{
-    width: 100%;
+    width: 85%;
     margin-top: 40px;
     display: flex;
+    margin: auto;
 }
 .filterSide {
     width: 20%;
