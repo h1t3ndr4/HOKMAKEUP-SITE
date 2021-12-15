@@ -1,0 +1,218 @@
+#topDiv {
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+#imageDiv {
+    width: 100%;
+    height: 70%;
+}
+#imageDiv + div {
+    padding: 20px;
+    margin-left: 15px;
+}
+
+#imageDiv>img {
+    height: 100%;
+    width: 100%;
+}
+
+#topDiv>div>a {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    color: #141414;
+    padding: 10px 15px;
+}
+#topDiv>div>h1 {
+
+    font-size: 24px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    color: #141414;
+    padding: 10px 15px;
+
+}
+.far{
+    font-size: 12px;
+}
+
+/* css for filter side start here ..... */
+.filter{
+    /* border: 1px solid black; */
+    margin-left: 50px;
+    font-family: Montserrat, sans-serif;
+
+    
+    
+}
+.headText{
+    padding: 15px 18px;
+    border: 1px solid #e2e4e8;
+    color: #141414;
+    border-radius: 5px 5px 0 0;
+}
+.headText>span>.far{
+    font-size: 18px;
+    color: #141414;
+    font-weight: 650;
+    margin-right: 10px;
+}
+.headText>span:last-child{
+    /* font-family: Montserrat, sans-serif; */
+    font-size: 18px;
+    font-weight: 650;
+}
+.filter>ul{
+    list-style: none;
+    margin-top: 0;
+    padding: 0 15px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 400;
+    border: 1px solid #e2e4e8;    
+}
+
+
+/* css for filter side End here ..... */
+
+
+/* css for product side Start here.... */
+.productMain{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+}
+.filterSide {
+    width: 20%;
+    /* border: 1px solid black; */
+    height: 200px;
+}
+
+.productSide {
+    margin-left: 15px;
+    width: 78%;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-rows: repeat(); */
+    grid-template-areas:
+    "a b c d "
+    "e f g h "
+    "i j k l ";
+    grid-gap: 20px;
+}
+.productDiv{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 15px;
+}
+.productDiv:nth-child(1){
+    grid-area: a;
+}
+.productDiv:nth-child(2){
+    grid-area: b;
+}
+.productDiv:nth-child(3){
+    grid-area: c;
+}
+.productDiv:nth-child(4){
+    grid-area: d;
+}
+.productDiv:nth-child(5){
+    grid-area: e;
+}
+.productDiv:nth-child(6){
+    grid-area: f;
+}
+.productDiv:nth-child(7){
+    grid-area: g;
+}
+.productDiv:nth-child(8){
+    grid-area: h;
+}
+.productDiv:nth-child(9){
+    grid-area: i;
+}
+.productDiv:nth-child(10){
+    grid-area: j;
+}
+.productDiv:nth-child(11){
+    grid-area: k;
+}
+.productDiv:nth-child(12){
+    grid-area: l;
+}
+
+.prodImagediv{
+    width: 100%;
+    height: 50%;    
+}
+
+.prodImagediv>img{
+    width: 100%;
+    height: 100%;    
+}
+.prodDesc>h3{
+    font-family:Poppins, sans-serif;
+    font-size: 15px;
+    color: #999999;
+    font-weight: 400;
+}
+.prodDesc>h4{
+    font-family:Poppins, sans-serif;
+    font-size: 14px;
+    color: #141414;
+    font-weight: 700;
+    line-height: 22px;
+}
+.price{
+    display: flex;
+    font-weight: 700;
+    line-height: 16px;
+    font-family:Poppins, sans-serif;
+
+
+}
+.price>h1:nth-child(1){
+    font-size: 18px;
+    color: #999999;
+    margin-right: 10px;
+    text-decoration: line-through;
+
+}
+.price>h1:nth-child(2){
+    font-size: 18px;
+    color: #ff66b9;
+
+}
+.selectOptionBtn{
+    background-color:transparent;
+    border-radius: 3px;
+    border: 1px solid #999999;
+    font-family:Poppins, sans-serif;
+    font-size: 18px;
+    width: 100%;
+    padding: 15px;
+    font-weight: 500;
+    color: #ff66b9
+
+}
+.selectOptionBtn:hover{
+
+   background-color: #ff66b9;
+   color: #fff;
+   border: 1px solid #ff66b9;
+}
+
+/* show more button style..... */
+.showMoreBtn{
+    padding: 20px;
+    background-color: #383e47;
+    color: #ea3469;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+
+  }
+  
