@@ -18,73 +18,9 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="Newindex.css" />
   </head>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-    .mySlides {
-      display: none;
-    }
-    img {
-      vertical-align: middle;
-    }
 
-    /* Slideshow container */
-    .slideshow-container {
-      max-width: 80%;
-      position: relative;
-      margin: auto;
-    }
-    /* The dots/bullets/indicators */
-    .dot {
-      height: 10px;
-      width: 10px;
-      margin: 0 2px;
-      background-color: #bbb;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
-    }
-
-    .active {
-      background-color: #717171;
-    }
-
-    /* Fading animation */
-    .fade {
-      -webkit-animation-name: fade;
-      -webkit-animation-duration: 1.5s;
-      animation-name: fade;
-      animation-duration: 1.5s;
-    }
-
-    @-webkit-keyframes fade {
-      from {
-        opacity: 0.4;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-
-    @keyframes fade {
-      from {
-        opacity: 0.4;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-
-    /* On smaller screens, decrease text size */
-    @media only screen and (max-width: 300px) {
-      .text {
-        font-size: 11px;
-      }
-    }
-  </style>
   <body>
     <div id="container">
       <div id="nav1">
@@ -94,7 +30,7 @@
         <h4 id="create">Login or Create An Account</h4>
       </div>
       <div id="nav2">
-        <div id="logo">
+        <div  id="logo">
           <img
             src="https://cdn.shopify.com/s/files/1/1743/7443/files/website_logo.png?v=1609240506"
             alt="logo"
@@ -102,24 +38,30 @@
             width="50%"
           />
         </div>
-        <div>
-          <input id="searchBox" type="text" placeholder="Search For Products" />
-        </div>
-        <div><i id="searchicon" class="fas fa-search"></i></div>
+        <div id="search">
+       
+          <input
+            id="searchBox"
+            type="text"
+            placeholder="Search For Products & Brands, etc"
+           >
+      
+       <div> <i id="searchicon" class="fas fa-search"></i></div> 
+      </div> 
         <div id="line"></div>
         <div><i id="wishlist" class="far fa-heart"></i></div>
-        <div><i id="cart" class="fal fa-shopping-cart"></i></div>
+        <div><i  id="cart" class="fal fa-shopping-cart"></i></div>
       </div>
       <div id="nav3">
         <div class="navbar">
-          <div><h4>NEW ARRIVALS</h4></div>
-          <div><h4>MAKEUP</h4></div>
-          <div><h4>SKIN</h4></div>
-          <div><h4>BRANDS</h4></div>
-          <div><h4>KITS AND COMBOS</h4></div>
-          <div><h4>OFFERS</h4></div>
-          <div><h4>TUTORIALS</h4></div>
-        </div>
+        <div><h4>NEW ARRIVALS</h4></div>
+        <div><h4>MAKEUP</h4></div>
+        <div><h4>SKIN</h4></div>
+        <div><h4>BRANDS</h4> </div>
+        <div><h4>KITS AND COMBOS</h4> </div>        
+        <div><h4>OFFERS</h4></div>
+        <div><h4>TUTORIALS</h4></div>
+      </div>
       </div>
       <div class="slideshow-container">
         <div class="mySlides fade">
@@ -175,70 +117,6 @@
         <span class="dot"></span>
         <span class="dot"></span>
         <span class="dot"></span>
-      </div>
-
-      <h3>OUR TOP BRANDS</h3>
-      <div id="brandsName">
-        <div>
-          <img
-            src="https://cdn.shopify.com/s/files/1/1743/7443/files/OWOWOWO_d11c8a94-9554-481a-b545-ac9a944909a7_160x.jpg?v=1638789426"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://cdn.shopify.com/s/files/1/1743/7443/files/KKKK_160x.jpg?v=1637142305"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://cdn.shopify.com/s/files/1/1743/7443/files/160x60_PP_logo_for_Brands_-_6_September_2021_160x.jpg?v=1630908614"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://cdn.shopify.com/s/files/1/1743/7443/files/160_X_60_Brand_Logos-04_160x.jpg?v=1609841765"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://cdn.shopify.com/s/files/1/1743/7443/files/160_X_60_Brand_Logos-01_160x.jpg?v=1609841780"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://cdn.shopify.com/s/files/1/1743/7443/files/XX_Logo_for_Brands_160x.jpg?v=1626848792"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://cdn.shopify.com/s/files/1/1743/7443/files/160_X_60_Brand_Logos-03_160x.jpg?v=1609841780"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://cdn.shopify.com/s/files/1/1743/7443/files/160x60_Relove_logo_for_Brands_copy_160x.jpg?v=1631517257"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://cdn.shopify.com/s/files/1/1743/7443/files/Wet_n_wild_1_160x_ce432897-e258-46e0-897f-403176448355_160x.png?v=1611950533"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://cdn.shopify.com/s/files/1/1743/7443/files/160_X_60_Brand_Logos-02_160x.jpg?v=1609841780"
-            alt=""
-          />
-        </div>
       </div>
       <h3>IN THE SPOTLIGHT</h3>
       <div id="banner1">
@@ -502,27 +380,6 @@
     </div>
   </body>
 </html>
-
-<script>
-  var slideIndex = 0;
-  showSlides();
-
-  function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {
-      slideIndex = 1;
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-  }
-</script>
+                        
+                        
+ <script src="slide.js"></script>
