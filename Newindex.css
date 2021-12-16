@@ -1,6 +1,9 @@
 #container {
   width: 100%;
 }
+
+/* Header Starting */
+
 #nav1 {
   display: flex;
   background-color: #f5deef;
@@ -240,6 +243,9 @@ i {
   display: block;
 }
 
+
+/* Header End */
+
 #banner {
   width: 80%;
   height: 325px;
@@ -380,6 +386,10 @@ h2 {
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
+
+/*Footer Start  */
+
+
 #footer {
   width: 100%;
   height: 500px;
@@ -496,3 +506,5 @@ button {
   margin-left: 10px;
   margin-top: 40px;
 }
+
+/* Footer End */
