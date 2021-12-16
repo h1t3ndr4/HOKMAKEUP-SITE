@@ -304,6 +304,9 @@ table{
     background-color: #222325;
     color: white;
   }
+ .needHelp{
+    text-align: center;
+  }
   hr {
     margin: auto;
     width: 80%;
