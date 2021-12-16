@@ -107,11 +107,6 @@
 
 /* Header and navigation var css End here........ */
 
-
-
-
-
-
 #topDiv {
     width: 100%;
     background-color: #f7f7f7;
@@ -199,18 +194,19 @@
     margin: auto;
 }
 .filterSide {
-    width: 20%;
-    /* border: 1px solid black; */
+    width: 45%;
     height: 200px;
 }
 
 .productSide {
     margin-left: 15px;
-    width: 78%;
-    /* border: 1px solid black; */
+
+}
+.allProducts{
+    margin-left: 15px;
+
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    /* grid-template-rows: repeat(); */
     grid-template-areas:
     "a b c d "
     "e f g h "
@@ -218,7 +214,7 @@
     grid-gap: 20px;
 }
 .productDiv{
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(219, 219, 219, 0.2) 0px 8px 24px;
     padding: 15px;
 }
 .productDiv:nth-child(1){
@@ -301,7 +297,7 @@
     color: #ff66b9;
 
 }
-.selectOptionBtn{
+.addToCartBtn{
     background-color:transparent;
     border-radius: 3px;
     border: 1px solid #999999;
@@ -310,10 +306,12 @@
     width: 100%;
     padding:5px 15px;
     font-weight: 500;
+    cursor: pointer;
     color: #ff66b9
 
+
 }
-.selectOptionBtn:hover{
+.addToCartBtn:hover{
 
    background-color: #ff66b9;
    color: #fff;
@@ -321,12 +319,20 @@
 }
 
 /* show more button style..... */
-.showMoreBtn{
-    padding: 20px;
+.btns{
+    text-align: center;
+    margin: 30px;
+}
+#showMoreBtn{
+    /* padding: 20px 50px; */
+    height: 48px;
     background-color: #383e47;
     color: #ea3469;
     font-size: 18px;
     font-weight: 400;
+    width: 350px;
+    cursor: pointer;
+    border-radius: 5px;
     font-family: Poppins, sans-serif;
 
   }
