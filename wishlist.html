@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<d>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         *{
             font-family: "Montserrat", sans-serif;
@@ -16,10 +16,11 @@
         #container{
             width: 60%;
             margin: auto;
-            border: blue 1px solid;
+        }
+        .flex{
+            display: flex;
         }
         .page{
-            display: flex;
             font-size: 14px;
             margin-top: 20px;
         }
@@ -28,9 +29,6 @@
           font-weight: bold;
           padding: 10px;
           padding-left: 25px;
-          
-         
-         
         }
         .wd{
             width:25% ;
@@ -41,15 +39,23 @@
         }
         table{
           margin-top: 40px;
+          margin-bottom: 20px;
         }
+        .email{
+            margin-top: 15px;
+            margin-right: 7px;
+            font-size: 14px;
+        }.email+p{
+            font-size: 14px;
+        }
+
     </style>
-</d>
 <body>
     <div id="container">
-    <div class="page">
-<a href="">Home</a>
+    <div class="page flex">
+<a href="" style="font-size: 14px;">Home</a>
 <span>></span>
-<span style="line-height: 20px;">Wishlist</span>
+<span style="line-height: 20px; font-size: 14px;">Wishlist</span>
 </div>
 <h3>WISHLIST</h3>
 <table>
@@ -61,7 +67,10 @@
     <td>ADD TO CART</td>
     </tr>
 </table>
-<i class="fas fa-envelope"></i>
+<div class="flex">
+<i class="fas fa-envelope email"></i>
+<p >Share My Wishlist Via Email</p>
+</div>
 </div>
 
 </body>
