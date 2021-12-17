@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>custemer login</title>
+    <style>
+        #container{
+            
+            width: 16%;
+            height: 500px;
+           padding: 10px 30px;
+            margin: auto;
+            line-height: 25px;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        }
+        .top{
+            display: flex;
+            justify-content:space-between;
+            font-family:  Montserrat, sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 16px;
+            color: #141414;
+
+        }
+     p{
+         font-family: Poppins, sans-serif;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 22px;
+         color: #141414;
+     }
+     label{
+        font-family: Poppins, sans-serif;
+         font-style: normal;
+         font-weight: 700;
+         font-size: 12px;
+         line-height: 22px;
+         color: #141414;
+     }
+     .box{
+         height: 35px;
+         width: 230px;
+     }
+     .but1{
+         background-color: white;
+         border: 1px solid #dfe1e5;
+     }
+     .but2{
+         border: 0;
+         background-color: #383e47;
+         color: #ea3469;
+         border-radius: 5px;
+         font-size: 15px;
+         cursor: pointer;
+     }
+     .under{
+         text-decoration: underline;
+         font-weight: bold;
+     }
+     .but1:hover{
+        border: 0;
+         background-color: #383e47;
+         color: #ea3469;
+         border-radius: 5px;
+         font-size: 15px;
+         cursor: pointer;
+     }
+     .but1{
+         background-color: #ffc0cb;
+         color: white;
+         border-radius: 5px;
+     }
+      input{
+         margin-top: 10px;
+      }
+     
+      span{
+        color: red;
+      }
+      .pasdiv{
+        font-family: Poppins, sans-serif;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 22px;
+         color: #141414;
+         margin-bottom: 10px;
+      }
+    </style>
+</head> 
+<body>
+    <div id="container">
+      <div class="top">
+          <div class="under">CUSTERMER LOGIN</div>
+          <div>X</div>
+       </div>
+      <hr></hr>
+           <p>If you are already registered, please log in</p>
+           <div>
+            <form id="form">
+               
+                <label>Email</label><span>*</span>
+                <br>
+                <input id="eml" class="box" type="text" placeholder="Email">
+                <br><br>
+                <label>Password</label><span>*</span>
+                <br>
+                <input id="pass"  class="box" type="text" placeholder="Password">
+                <br><br>
+                <div class="pasdiv">Forget Your Password?</div>
+                <button id="but" class="box but1" type="submit">LOGIN</button>
+            </form>
+            <div class="lastbox">
+                <p>Create your account and enjoy a new shopping experience</p>
+                <button id="lastbut" class="box but2" type="submit">CREATE A NEW ACCOUNT</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="custemer_login.js">
+
+</script>
