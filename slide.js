@@ -1,3 +1,5 @@
+// SlideShow JS
+
 var slideIndex = 0;
 showSlides();
 
@@ -17,5 +19,23 @@ function showSlides() {
   }
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+
+
+// Login JS
+
+var loginn = document.getElementById("loginn");
+var log = document.getElementById("log");
+var closeWin = document.getElementById("close");
+
+log.addEventListener("click", showlogin);
+function showlogin() {
+  loginn.style.display = "block";
+}
+
+closeWin.addEventListener("click", hiddlogin);
+
+function hiddlogin() {
+  loginn.style.display = "none";
 }
