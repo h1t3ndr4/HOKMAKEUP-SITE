@@ -1,0 +1,255 @@
+.cont{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    font-family: Poppins,sans-serif;
+
+}
+.headerSide{
+    width: 80%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.headerSide>a{
+    text-decoration: none;
+    font-style: 50px;
+    font-weight: 700;
+}
+.head{
+    background-color: #ececec;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #141414;
+}
+.productSide{
+    width: 60%;
+}
+.cartDiv{
+    display: flex;
+    padding: 10px;
+}
+.imgDiv{
+    width: 40%;
+
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.price{
+    display: flex;
+    font-family: Poppins, sans-serif;;
+    line-height: 18px;
+}
+.price>h1:nth-child(1){
+    font-size: 20px;
+
+    font-weight: 800;
+    color: #999999;
+    margin-right: 15px;
+    text-decoration: line-through;
+
+}
+.price>h1:nth-child(2){
+    font-size: 20px;
+
+    font-weight: 800;
+    color: #ff66b9;
+
+}
+.orderSummery{
+    height: 100px;
+    width: 38%;
+    margin-left: 2%;
+}
+.orderSummery>h4{
+    text-align: center;
+}
+
+#A{
+    text-align:center;
+    color: rgb(48, 48, 48);
+    display: flex;
+    justify-content:space-between;
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.totlText{
+    font-size: 18px;
+}
+.totlAmmount{
+    font-size: 22px;
+}
+.hr{
+    height:1px;
+    background-color: silver;
+}
+.orderSummery>div>h3{
+    display: inline-block;
+    margin-left: 0;
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+}
+.orderSummery>div>h3:first-child{
+   color: white;
+   background-color: #70b00c;
+   border-radius: 4px;
+   padding: 4px 6px;
+   margin-right: 20px;
+}
+.checkOutBtn{
+    margin-top: 20px;
+    padding: 16px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #ff66b9;
+    color: #ffffff;
+    line-height: 16px;
+    border: none;
+    border-radius: 4px;
+}
+.sumeryDesc{
+    display: flex; 
+    width: 50%;
+     margin:25px auto;
+    font-family: Poppins,sans-serif;
+    font-style: italic;
+}
+.sumeryDesc>.fas{
+    color: rgb(128, 128, 128);
+    font-size: 20px;
+}
+.sumeryDesc>p{
+     margin-top: 0; 
+     margin-left: 10px; 
+     text-align: center;
+     color: #999999;
+}
+.orderSummery>h5{
+    width: 80%;
+    margin: auto;
+    font-family: Poppins,sans-serif;
+    color: #999999;
+    font-size: 14px;
+    text-align: center;
+}
+.shippEstimates{
+    width: 100%;
+    background-color: #ececec;
+    font-family: Poppins,sans-serif;
+
+}
+.shippEstimates>h2{
+    padding: 10px;
+    font-size: 18px;
+    color: #999999;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 40px;
+}
+form>label{
+    line-height: 40px;
+    font-size: 18px;
+}
+form>select{
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    color: #999999;
+    font-weight: 500;
+    border: 1px solid #999999;
+    border-radius: 3px;
+}
+form>input{
+    width: 100%;
+    padding: 8px 0;
+    font-size: 18px;
+    color: #999999;
+    font-weight: 500;
+    border: 1px solid #999999;
+    border-radius: 3px;
+}
+#calculate{
+    background-color: #383e47;
+    color: #ee1266;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/*
+.prodCart{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 10px;
+}
+.prodImagediv{
+    width: 50%; */
+    /* height: 50%;     */
+    /* border: 1px solid black;
+}
+
+.prodImagediv>img{
+    width: 100%;
+    height: 100%;    
+}
+.prodDesc>h3{
+    font-family:Poppins, sans-serif;
+    font-size: 15px;
+    color: #999999;
+    font-weight: 400;
+}
+.prodDesc>h4{
+    font-family:Poppins, sans-serif;
+    font-size: 14px;
+    color: #141414;
+    font-weight: 700;
+    line-height: 22px;
+}
+.price{
+    display: flex;
+    font-weight: 700;
+    line-height: 16px;
+    font-family:Poppins, sans-serif;
+    margin-left: 5px;
+
+
+}
+.price>h1:nth-child(1){
+    font-size: 18px;
+    color: #999999;
+    margin-right: 15px;
+    text-decoration: line-through;
+
+}
+.price>h1:nth-child(2){
+    font-size: 18px;
+    color: #ff66b9;
+
+} */
+/* .addToCartBtn{
+    background-color:transparent;
+    border-radius: 3px;
+    border: 1px solid #999999;
+    font-family:Poppins, sans-serif;
+    font-size: 18px;
+    width: 100%;
+    padding:5px 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #ff66b9
+
+
+}
+.addToCartBtn:hover{
+
+   background-color: #ff66b9;
+   color: #fff;
+   border: 1px solid #ff66b9;
+} */
