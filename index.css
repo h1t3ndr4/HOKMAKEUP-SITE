@@ -1,6 +1,9 @@
 #container {
   width: 100%;
 }
+
+/* Header Starting */
+
 #nav1 {
   display: flex;
   background-color: #f5deef;
@@ -9,6 +12,132 @@
   margin-top: -8px;
   font-family: "Poppins", sans-serif;
   font-size: 13.5px;
+}
+
+#loginn {
+  margin-left: 70%;
+  background-color: white;
+  position: absolute;
+  width: 20%;
+  padding: 15px 20px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+  display: none;
+  z-index: 1;
+  height: 580px;
+  font-family: Poppins, sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+}
+#loginHr {
+  width: 100%;
+}
+#loginP {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+}
+/* label {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  color: #141414;
+} */
+
+#logBold {
+  font-family: Poppins, sans-serif;
+  font-weight: bolder;
+  font-size: 12px;
+  color: #141414;
+}
+.box {
+  height: 40px;
+  width: 250px;
+  margin-top: 15px;
+}
+.but1 {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+}
+.but2 {
+  border: 0;
+  background-color: #383e47;
+  color: #ea3469;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+#under {
+  text-decoration: underline;
+  width: 70%;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+#close {
+  margin-top: 0px;
+  color: black;
+  font-size: 21px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.but1:hover {
+  border: 0;
+  background-color: #383e47;
+  color: #ea3469;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* input {
+  margin-top: 10px;
+} */
+
+span {
+  color: red;
+}
+.pasdiv {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+}
+.pasdiv a {
+  color: black;
+  text-decoration: none;
+}
+
+.pasdiv::after {
+  content: "";
+  position: absolute;
+  width: 55%;
+  height: 1.5px;
+  background-color: black;
+  left: 0%;
+  bottom: 0%;
+  transform: scale(0, 1);
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease;
+}
+.pasdiv:hover::after {
+  transform: scale(1, 1);
 }
 
 #free600 {
@@ -94,6 +223,7 @@ i {
 
 #logo {
   margin-left: 10%;
+  cursor: pointer;
 }
 
 #search {
@@ -129,6 +259,7 @@ i {
   color: rgb(72, 72, 73);
   font-weight: lighter;
   background-color: #f7f7f7;
+  cursor: pointer;
 }
 
 #wishlist {
@@ -137,6 +268,7 @@ i {
   font-size: 30px;
   font-weight: lighter;
   color: rgb(72, 72, 73);
+  cursor: pointer;
 }
 #cart {
   margin-left: 15px;
@@ -144,6 +276,7 @@ i {
   font-size: 27px;
   font-weight: lighter;
   color: rgb(72, 72, 73);
+  cursor: pointer;
 }
 
 #line {
@@ -168,29 +301,79 @@ i {
   align-items: center;
   font-family: "Montserrat", sans-serif;
 }
-.navbar div {
+.navbar a {
   position: relative;
   margin-right: 25px;
   color: #f7f6f2;
   font-weight: 1000;
   font-size: 13.5px;
   cursor: pointer;
+  text-decoration: none;
 }
-.navbar div::after {
+.navbar a::after {
   content: "";
   position: absolute;
   width: 100%;
   height: 1.5px;
   background-color: #f7f6f2;
-  bottom: 15px;
+  bottom: 0;
+  left: 0%;
   transform: scale(0, 1);
   transform-origin: 0% 100%;
   transition: transform 0.4s ease;
 }
 
-.navbar div:hover::after {
+.navbar a:hover::after {
   transform: scale(1, 1);
 }
+
+.makeup {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 50%;
+  margin-top: 5px;
+  z-index: 1;
+  height: 450px;
+}
+.makeup div a {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.makelist:hover .makeup {
+  display: block;
+  display: flex;
+  padding: 30px;
+}
+.color-pink {
+  color: #ff66b9;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#kits_combos {
+  width: 12%;
+  background-color: white;
+  margin-top: 13px;
+  padding: 10px;
+  position: absolute;
+  display: none;
+  z-index: 1;
+}
+#kits_combos a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+}
+#kits:hover #kits_combos {
+  display: block;
+}
+
+/* Header End */
 
 * {
   box-sizing: border-box;
@@ -207,6 +390,7 @@ img {
   width: 80%;
   position: relative;
   margin: auto;
+  cursor: pointer;
 }
 /* The dots/bullets/indicators */
 .dot {
@@ -255,11 +439,13 @@ img {
     font-size: 11px;
   }
 }
+
 #banner {
   width: 80%;
   height: 325px;
   margin: auto;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 h3 {
   text-align: center;
@@ -287,6 +473,7 @@ h3 {
   height: 325px;
   margin: auto;
   margin-bottom: 25px;
+  cursor: pointer;
 }
 #hotPicks {
   display: grid;
@@ -295,6 +482,7 @@ h3 {
   width: 80%;
   margin: auto;
   grid-gap: 40px;
+  cursor: pointer;
 }
 
 #shopCat {
@@ -313,6 +501,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .cat1 {
   grid-area: a;
@@ -337,6 +526,7 @@ h3 {
   width: 80%;
   margin: auto;
   grid-gap: 30px;
+  cursor: pointer;
 }
 #collection {
   display: grid;
@@ -345,12 +535,13 @@ h3 {
   width: 80%;
   margin: auto;
   grid-gap: 30px;
+  cursor: pointer;
 }
 #network {
   width: 80%;
-
   height: 290px;
   margin: auto;
+  cursor: pointer;
 }
 #mainProcess {
   width: 100%;
@@ -395,6 +586,9 @@ h2 {
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
+
+/*Footer Start  */
+
 #footer {
   width: 100%;
   height: 500px;
@@ -443,13 +637,13 @@ h5 {
   font-size: 17px;
   font-family: "Montserrat", sans-serif;
 }
-p {
+#footer p {
   line-height: 15px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 14px;
 }
-p:hover {
+#footer p:hover {
   color: #ff0b91;
   text-decoration: underline;
   cursor: pointer;
@@ -511,3 +705,4 @@ button {
   margin-left: 10px;
   margin-top: 40px;
 }
+/* Footer End */
