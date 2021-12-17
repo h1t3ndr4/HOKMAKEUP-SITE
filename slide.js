@@ -22,8 +22,7 @@ function showSlides() {
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
 
-
-// Login JS
+// Login PopUp JS
 
 var loginn = document.getElementById("loginn");
 var log = document.getElementById("log");
