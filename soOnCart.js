@@ -72,9 +72,9 @@ buyProducts.map(function (evnt){
     
     desc.append(h4,h3,priceDiv);
     document.querySelector(".productSide").append(cartDiv);
-
-    
-
+})
 
 
+document.querySelector(".checkOutBtn").addEventListener("click",function (){
+    window.location.href = "checkout.html"
 })
