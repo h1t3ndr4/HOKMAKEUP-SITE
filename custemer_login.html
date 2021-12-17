@@ -94,33 +94,34 @@
     </style>
 </head> 
 <body>
-    <div id="container">
-      <div class="top">
-          <div class="under">CUSTERMER LOGIN</div>
-          <div>X</div>
-       </div>
-      <hr></hr>
-           <p>If you are already registered, please log in</p>
-           <div>
-            <form id="form">
-               
-                <label>Email</label><span>*</span>
-                <br>
-                <input id="eml" class="box" type="text" placeholder="Email">
-                <br><br>
-                <label>Password</label><span>*</span>
-                <br>
-                <input id="pass"  class="box" type="text" placeholder="Password">
-                <br><br>
-                <div class="pasdiv">Forget Your Password?</div>
-                <button id="but" class="box but1" type="submit">LOGIN</button>
-            </form>
-            <div class="lastbox">
-                <p>Create your account and enjoy a new shopping experience</p>
-                <button id="lastbut" class="box but2" type="submit">CREATE A NEW ACCOUNT</button>
-            </div>
+    <div id="loginn">
+        <div id="top">
+          <div id="under">CUSTOMER LOGIN</div>
+          <div><i id="close" class="fas fa-times"></i></div>
         </div>
-    </div>
+        <hr id="loginHr"/>
+        <p style="color: black;">If you are already registered,<br> please log in.</p>
+        <div>
+          <form id="form">
+            <label id="logBold">Email</label><span>*</span>
+            <br />
+            <input class="box" type="text" placeholder="Email" />
+            <br /><br />
+            <label id="logBold">Password</label><span>*</span>
+            <br />
+            <input class="box" type="password" placeholder="Password" />
+            <br /><br />
+            <div class="pasdiv"><a href="#">Forgot Your Password?</a></div>
+            <button class="box but1" type="submit" onclick="loggin(event)">
+              LOGIN
+            </button>
+            <div class="lastbox">
+              <p>Create your account and enjoy a new shopping experience.</p>
+              <button class="box but2" type="submit">CREATE A NEW ACCOUNT</button>
+            </div>
+          </form>
+        </div>
+      </div>
 </body>
 </html>
 <script src="custemer_login.js">
