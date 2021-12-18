@@ -38,3 +38,20 @@ closeWin.addEventListener("click", hiddlogin);
 function hiddlogin() {
   loginn.style.display = "none";
 }
+
+document.querySelector("#form").addEventListener("submit", mylogin);
+regUser = JSON.parse(localStorage.getItem("Useraccount"));
+console.log(regUser);
+function mylogin(event) {
+  event.preventDefault();
+  email = document.querySelector("#eml").value;
+  password = document.querySelector("#pass").value;
+
+  for (var i = 0; i < regUser.length; i++) {
+    if (regUser[i].email == email && regUser[i].password == password) {
+      alert("Login Successful");
+    } else {
+      alert("Invalid Email Or Password");
+    }
+  }
+}
