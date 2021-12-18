@@ -18,7 +18,7 @@ document.querySelector("#apply").addEventListener("click", discount);
 var promo = document.querySelector("#gift");
 function discount(event){
     event.preventDefault();
-    if(promo.value == "hok"){
+    if(promo.value == "hok-lover"){
         var disc =  totalPrice - (totalPrice * 0.3);
         addprice.textContent = null;
         addprice.textContent = "₹ "+ disc;
@@ -26,7 +26,7 @@ function discount(event){
         promo.value ="";
 
         document.querySelector(".discTotl").textContent = "₹ "+ disc;
-
+        // document.querySelector("#payBtn").textContent = "PAYMENT"+"₹ "+ disc;
         
     }
 }

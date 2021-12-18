@@ -30,6 +30,7 @@ html, body {
 .topbox {
     background-color: #141414;
     color: white;
+    text-align: center;
     padding:20px;
     border-radius:5% 5% 0 0;
 }

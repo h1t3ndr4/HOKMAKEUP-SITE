@@ -1,6 +1,7 @@
 let images = [
-    "https://s-media-cache-ak0.pinimg.com/736x/24/1a/bd/241abd66d078720dc0b07f516eae028c--jamberry-party-jamberry-nail-wraps.jpg",
-    "https://1.bp.blogspot.com/-4DPaCmq8448/VvL30CcggtI/AAAAAAAALNc/ql1AKNT3tsMEDBlkp96vCis_ansmdcTQA/s1600/thank%2Byou%2Bfor%2Byour%2Border.jpg"
+    "https://assets.onlinelabels.com/Images/Predesign/00000001/797/Thank-You-For-Ordering-With-Us-Editable-Label-Design-Free.PNG",
+    "https://media.karousell.com/media/photos/products/2020/8/9/thank_you_for_your_order_stick_1596957818_4c080499_progressive.jpg",
+    "https://rlv.zcache.com/thank_you_for_all_birthdays_black_gold_star_star_sticker-rff2bfbf6bfba49fe982f07e5f66245a5_0ugdr_8byvr_540.jpg"
 
 ]
   
