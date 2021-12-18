@@ -39,6 +39,8 @@ function hiddlogin() {
   loginn.style.display = "none";
 }
 
+// Login Data JS
+
 document.querySelector("#form").addEventListener("submit", mylogin);
 regUser = JSON.parse(localStorage.getItem("Useraccount"));
 console.log(regUser);
