@@ -1,27 +1,35 @@
-// document.querySelector("#myform").addEventListener("submit", addItem);
-// var arr = JSON.parse(localStorage.getItem("page")) || []
-// displayTable(arr);
-
-// function addItem(event) {
-//     event.preventDefault();
-//     var contact = document.querySelector("#contact").value;
-//     var email = document.querySelector("#email").value;
-//     var checkbox = document.querySelector("#checkbox").value;
-//     var country = document.querySelector("#country").value;
-//     var first_name = document.querySelector("#first_name").value;
-//     var last_name = document.querySelector("#last_name").value;
-// };
 
 var data = JSON.parse(localStorage.getItem("HokCartData")) ||[];
-// console.log(data);
 
 
 var totalPrice = 0;
 for(var i=0; i<data.length; i++){
     totalPrice += Number(data[i].price);
 }
-document.querySelector(".addPrice").textContent = "₹ "+totalPrice;
-document.querySelector(".Total").textContent = "₹ "+totalPrice;
+var addprice = document.querySelector(".addPrice");
+addprice.textContent = "₹ "+totalPrice;
+var addTotal = document.querySelector(".Total");
+addTotal.textContent = "₹ "+totalPrice;
+
+// discount js Headers.......
+
+
+document.querySelector("#apply").addEventListener("click", discount);
+var promo = document.querySelector("#gift");
+function discount(event){
+    event.preventDefault();
+    if(promo.value == "hok"){
+        var disc =  totalPrice - (totalPrice * 0.3);
+        addprice.textContent = null;
+        addprice.textContent = "₹ "+ disc;
+        addTotal.textContent = "₹ "+ disc;
+        promo.value ="";
+
+        document.querySelector(".discTotl").textContent = "₹ "+ disc;
+
+        
+    }
+}
 
 
 data.map(function (event){
@@ -66,7 +74,7 @@ function addFormData(evnt){
 
 document.querySelector("#shop").addEventListener("click", function(){
     window.location.href = "shipping.html";
-})
+});
 // console.log(store);
 
 for(var i=0; i<store.length; i++){
@@ -77,3 +85,18 @@ for(var i=0; i<store.length; i++){
     add.textContent = store[i].address;
 }
 
+// change address define function here .......
+
+ document.querySelector("#shop").addEventListener("click", function(){
+     window.location.href = "card.html";
+ })
+
+function change(){
+    window.location.href = "checkout.html"
+}
+
+// offer promo js Headers....
+
+
+
+ 

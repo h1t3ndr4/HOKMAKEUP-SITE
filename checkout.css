@@ -120,11 +120,14 @@ input {
 
 }
 
-#gift {
-    width: 80%;
+#promoForm>#gift {
+    width: 100%;
     justify-content: space-between;
     margin-left: 30px;
 } 
+#apply{
+    width: 20%;
+}
 
 #half {
     width: 100%;
@@ -202,7 +205,10 @@ input {
     /* margin: 0 10px; */
 }
 
-
+/* promoForm css.... */
+#promoForm{
+    display: flex;
+}
 
 /* shippinig file css start here ... */
 
@@ -217,6 +223,10 @@ input {
  text-align: center;
  height: 100%; 
  width: 90px;
+}
+
+.change{
+    cursor: pointer;
 }
 
 /* shippinig file css end here ... */
