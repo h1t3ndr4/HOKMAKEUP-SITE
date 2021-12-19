@@ -98,6 +98,9 @@ var cartData = [
 ];
 
 var cartArr = [];
+displayProducts(cartData);
+
+function displayProducts(cartData){
 cartData.map(function (event) {
   var imgDiv = document.createElement("div");
   imgDiv.setAttribute("class", "prodImagediv");
@@ -147,7 +150,8 @@ cartData.map(function (event) {
   itemCart.append(imgDiv, prodDesDiv, button);
 
   document.querySelector(".allProducts").append(itemCart);
-});
+  });
+}
 
 function addToCart(event) {
   cartArr.push(event);
@@ -162,3 +166,26 @@ document
 function displayCartData() {
   window.location.href = "soOnCart.html";
 }
+
+
+// filter js start here.....
+var hokProducts = JSON.parse(localStorage.getItem("HokCartData"))|| [];
+
+function sortByPrice(){
+    var selected = document.querySelector("#sortByPrice").value;
+
+        if (selected == "LowToHigh") {
+            hokProducts.sort(function (a, b) {
+                return Number(b.price) - Number(a.price);
+            });
+        }
+        if (selected == "HighToLow") {
+            hokProducts.sort(function (a, b) {
+                return Number(a.price) - Number(b.price);
+            });
+        }
+        displayProducts(hokProducts);
+        // console.log(hokProducts.price);
+
+}
+// filter js End here.....

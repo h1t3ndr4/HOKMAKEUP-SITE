@@ -447,6 +447,22 @@ i {
 /* css for filter side End here ..... */
 
 /* css for product side Start here.... */
+.filters{
+  text-align: right;
+}
+.filters>.sortByPrice{
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;  
+  cursor: pointer;
+
+
+}
+.filters>select{
+  padding: 7px;
+  border: 1px solid silver;
+  font-size: 18px;
+  cursor: pointer;
+}
 .productMain {
   width: 85%;
   margin-top: 40px;
