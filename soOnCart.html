@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>addToCart data</title>
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./styles/soOnCart.css" />
+  </head>
+
+  <body>
+     <div id="nav1">
+        <h4 id="free600">FREE SHIPPING ON ORDERS ABOVE RS 600/-</h4>
+        <h4 id="track" style="font-weight: 500;">Track Order</h4>
+        <i class="far fa-user"></i>
+        <h4 id="log"><a href="./index.html" style="text-decoration: none; color: black; font-weight: 500;">LogOut</a> </h4>
+        <h4>.</h4>
+        <h4 id="create" style="font-weight: 500;"></h4>
+      </div>
+
+
+      <!-- Login Data By Dhananjay -->
+      
+      <div id="loginn">
+        <div id="top">
+          <div id="under">CUSTOMER LOGIN</div>
+          <div><i id="close" class="fas fa-times"></i></div>
+        </div>
+        <hr id="loginHr"/>
+        <p style="color: black;">If you are already registered,<br> please log in.</p>
+        <div>
+          <form id="form">
+            <label id="logBold">Email</label><span>*</span>
+            <br />
+            <input id="eml"class="box" type="text" placeholder="Email" />
+            <br /><br />
+            <label id="logBold">Password</label><span>*</span>
+            <br />
+            <input id="pass"class="box" type="password" placeholder="Password" />
+            <br /><br />
+            <div class="pasdiv"><a href="./loginArrival.html">Forgot Your Password?</a></div>
+            <button class="box but1" type="submit" onclick="loggin(event)">
+              LOGIN
+            </button>
+          </form>
+            <div class="lastbox">
+              <p>Create your account and enjoy a new shopping experience.</p>
+              <button class="box but2" type="submit">CREATE A NEW ACCOUNT</button>
+            </div>
+        </div>
+      </div>
+
+      <div id="nav2">
+        <div  id="logo">
+          <img style="width: 52%;"
+            src="https://cdn.shopify.com/s/files/1/1743/7443/files/website_logo.png?v=1609240506"
+            alt="logo"
+            height="95%"
+            width="50%"
+          />
+        </div>
+        <div id="search">
+       
+          <input
+            id="searchBox"
+            type="text"
+            placeholder="Search For Products & Brands, etc"
+           >
+      
+       <div> <i id="searchicon" class="fas fa-search"></i></div> 
+      </div>
+        <div id="line"></div>
+        <div><i id="wishlist" class="far fa-heart"></i></div>
+        <div><i  id="cart" class="fal fa-shopping-cart"></i></div>
+      </div>
+      <div id="nav3">
+        <div class="navbar">
+        <a href="./loginArrival.html">NEW ARRIVALS</a>
+        <div class="makelist"><a href="./loginArrival.html">MAKEUP</a>
+        <div class="makeup">
+          <div>
+              <div class="color-pink">Eyes</div>
+              <p><a href="./loginArrival.html">EyeBrow</a></p>
+              <p><a href="./loginArrival.html">Eye liner</a></p>
+              <p><a href="./loginArrival.html">Eye primer</a></p>
+              <p><a href="./loginArrival.html">Eye shadow</a></p>
+              <p><a href="./loginArrival.html">False eyelashes</a></p>
+              <p><a href="./loginArrival.html">Kajal</a></p>
+              <p><a href="./loginArrival.html">Mascara</a></p>
+          </div>
+          <div>
+              <div class="color-pink">Face</div> 
+              <p><a href="./loginArrival.html">Blush</a></p>
+              <p><a href="./loginArrival.html">B.B / C.C cream</a></p>
+              <p><a href="./loginArrival.html">Bronzer</a></p>
+              <p><a href="./loginArrival.html">Compact</a></p>
+              <p><a href="./loginArrival.html">Concealer</a></p>
+              <p><a href="./loginArrival.html">Contour</a></p>
+              <p><a href="./loginArrival.html">Foundation</a></p>
+              <p><a href="./loginArrival.html">Highlighter</a></p>
+              <p><a href="./loginArrival.html">Loose power</a></p>
+          </div>
+          <div>
+               <div class="color-pink">Lips</div> 
+              <p><a href="./loginArrival.html">Lip Balm</a></p>
+              <p><a href="./loginArrival.html">Lip Gloss</a></p>
+              <p><a href="./loginArrival.html">Lip liner</a></p>
+              <p><a href="./loginArrival.html">Lipstick</a></p>
+              <p><a href="./loginArrival.html">Liquid Lipstick</a></p>
+      
+          </div>
+          <div>
+              <div class="color-pink">Nails</div>
+              <p><a href="./loginArrival.html">Nail Polish</a></p>
+          </div>
+          <div>
+             <div class="color-pink">Tools & Brushes</div>
+              <p><a href="./loginArrival.html">Brush set</a></p>
+              <p><a href="./loginArrival.html">Face brush</a></p>
+              <p><a href="./loginArrival.html">Eye brush</a></p>
+              <p><a href="./loginArrival.html">Lip brush</a></p>
+              <p><a href="./loginArrival.html">Sponges and Applicators</a></p>
+          </div>
+          <div>
+             <div class="color-pink">Kits</div>
+              <p><a href="./loginArrival.html">Eye Palettes</a></p>
+              <p><a href="./loginArrival.html">Face palettes</a></p>
+          </div>
+       </div>
+      </div>
+        <div class="makelist"><a href="./loginArrival.html">SKIN</a>
+
+        <div class="makeup">
+          <div>
+              <div class="color-pink">Face</div>
+              <p><a href="./loginArrival.html">Cleanser</a></p>
+              <p><a href="./loginArrival.html">cream</a></p>
+              <p><a href="./loginArrival.html">Face mask</a></p>
+              <p><a href="./loginArrival.html">Serum & Oil</a></p>
+              <p><a href="./loginArrival.html">Face Wash</a></p>
+              <p><a href="./loginArrival.html">Facial Mist</a></p>
+              <p><a href="./loginArrival.html">Facial Wipes</a></p>
+              <p><a href="./loginArrival.html">Gel</a></p>
+              <p><a href="./loginArrival.html">Scrub</a></p>
+              <p><a href="./loginArrival.html">Moisturizer</a></p>
+          </div>
+          <div>
+              <div class="color-pink">Eyes</div>
+              <p><a href="./loginArrival.html">Eye Cream</a></p>
+              <p><a href="./loginArrival.html">Eye Patch</a></p>
+          </div>
+          <div>
+              <div class="color-pink">Lip Care</div> 
+              <p><a href="./loginArrival.html">Lip Balm</a></p>
+              <p><a href="./loginArrival.html">Petrolium Jelly</a></p>
+          </div>
+          <div>
+              <div class="color-pink">Bath & Body</div>
+              <p><a href="./loginArrival.html">Shower Gel</a></p>
+              <p><a href="./loginArrival.html">Foot Scrub</a></p>
+              <p><a href="./loginArrival.html">Body Oil</a></p>
+          </div>
+          <div>
+              <div  class="color-pink">Hair</div>
+              <p><a href="./loginArrival.html">Hair Masque</a></p>
+              <p><a href="./loginArrival.html">Hair Gel</a></p>
+              <p><a href="./loginArrival.html">Shampoo</a></p>
+          </div>
+      </div>
+    </div>
+        <a href="./loginArrival.html">BRANDS</a> 
+      
+        <div id="kits"><a href="./loginArrival.html">KITS AND COMBOS</a>
+        <div id="kits_combos">
+          <p><a href="./loginArrival.html">Best Selling Combos</a></p>
+          <p><a href="./loginArrival.html">Customisable Kits</a></p>
+         </div> 
+        </div> 
+        <a href="./loginArrival.html">OFFERS</a>
+       <div id="kits"><a href="./loginArrival.html">TUTORIALS</a> 
+      <div id="kits_combos">
+        <p><a href="./loginArrival.html">Face</a></p>
+        <p><a href="./loginArrival.html">Lips</a></p>
+        <p><a href="./loginArrival.html">Eyes</a></p>
+      </div>
+      </div>
+      </div>
+    <div class="headerSide">
+      <p style="margin-left: 14%;">Home > Shopping Cart</p>
+      <h2 style="margin-left:-72%; margin-top: 5%;">SHOPPING CART</h2>
+      <a href="./newArrivals.html">Continue shopping > </a>
+    </div>
+
+    <div class="cont">
+      <div class="productSide">
+        <h4 class="head">PRODUCT</h4>
+      </div>
+      <div class="orderSummery">
+        <h4 class="head">ORDER SUMMARY</h4>
+        <div id="A">
+          <h2 class="totlText">Total :</h2>
+          <h2 class="totlAmmount"></h2>
+        </div>
+        <div class="hr"></div>
+        <div>
+          <h3>Note</h3>
+          <h3>Add a note to your order</h3>
+        </div>
+        <textarea name="" id="" cols="52" rows="7"></textarea>
+        <button class="checkOutBtn">PROCEED TO CHECKOUT</button>
+        <div class="sumeryDesc">
+          <i class="fas fa-user-shield"></i>
+          <p>We commit to protect your privacy. Your information is secure.</p>
+        </div>
+        <h5>Need Help? Contact us or Get in touch +91 9810245261</h5>
+        <div class="shippEstimates">
+          <h2>GET SHIPPING ESTIMATES</h2>
+        </div>
+        <form action="">
+          <label for="country">Country</label><br />
+          <select name="" id="country">
+            <option value="india">India</option>
+            <option value="United">United State</option>
+            <option value="Australia">Australia</option>
+            <option value="Chhina">Chhina</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Japan">Japan</option>
+            <option value="new-Zelend">New Zelend</option></select
+          ><br />
+
+          <label for="State">State</label><br />
+          <select name="" id="State">
+            <option value="utter-Pradesh">utter-Pradesh</option>
+            <option value="Uttrakhand">Uttrakhand</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Maharastra">Maharastra</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Jufarat">Jufarat</option>
+            <option value="Delhi">Delhi</option></select
+          ><br />
+
+          <label for="postal">Postal/Zip Code</label>
+          <br />
+          <input type="text" id="postal" />
+
+          <input type="submit" id="calculate" value="CALCULATE SHIPPING" />
+        </form>
+      </div>
+    </div>
+    
+    <script src="./script/soOnCart.js"></script>
+    
+<script>
+  var data = JSON.parse(localStorage.getItem("Useraccount")) || [];
+  for (var i = 0; i < data.length; i++) {
+      document.querySelector("#create").textContent = data[i].firstname + " " + data[i].lastname;
+  }
+
+</script>
+  </body>
+</html>
