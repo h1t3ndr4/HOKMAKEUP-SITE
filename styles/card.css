@@ -1,68 +1,69 @@
-#card-details{
-    width: 40%;
-    margin: auto;
-
+#card-details {
+  width: 50%;
+  margin: auto;
+  height: 50%;
 }
 #card-details > a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.payment-sec{
-    border: 1px solid rgb(207, 196, 196);
-    color: black;
-    width: 80%;
-    
+.payment-sec {
+  border: 1px solid rgb(207, 196, 196);
+  color: black;
+  width: 80%;
 }
-.upper-margin{
-     margin: 4% 0 0 0 ;
+.upper-margin {
+  margin: 4% 0 0 0;
 }
 
- .payment-sec > div > div{ 
-    display: inline-block;
- }
+.payment-sec > div > div {
+  display: inline-block;
+}
 
- .payment-sec > h4, .wallet{
-      font-family:Montserrat,sans-serif ;
-      font-size: medium;
-      margin: 2% 6%;
- }
- .payment-sec > h4 > span{
-      font-size: small;
-      color: grey;
- }
- .outer-line{
-     margin: 1% 0.5%;
- }
- 
- #box {
-        width:55%;
-        border-radius: 5%;
-        margin: auto;
-        padding: 5px;
-        box-shadow: 0 10px 10px 0 rgba(243, 239, 239, 0.2), 0 10px 10px 0 rgba(233, 223, 223, 0.19);;
-        background-color: white;
-       
-    }
-    #container {
-        background-color: #666666;
-        width:100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height:100%;
+.payment-sec > h4,
+.wallet {
+  font-family: Montserrat, sans-serif;
+  font-size: medium;
+  margin: 2% 6%;
+}
+.payment-sec > h4 > span {
+  font-size: small;
+  color: grey;
+}
+.outer-line {
+  margin: 1% 0.5%;
+}
 
-    } 
-    html, body {
-        background-color: #666666;
-        width:100%;
-        margin: 0px;
-        height:100%;
-    }
+#box {
+  width: 40%;
+  border-radius: 5%;
+  margin: auto;
+  padding: 40px 10px;
+  box-shadow: 0 10px 10px 0 rgba(243, 239, 239, 0.2),
+    0 10px 10px 0 rgba(233, 223, 223, 0.19);
+  background-color: white;
+}
+#container {
+  background-color: #666666;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+html,
+body {
+  background-color: #666666;
+  width: 100%;
+  margin: 0px;
+  height: 100%;
+}
 
-    .promarg{
-        margin: 5% 3%;
-    }
-   
-    #img{
-        width: 30px; margin: 6px 2px 2px 2px ;
-    }
+.promarg {
+  margin: 5% 3%;
+}
+
+#img {
+  width: 30px;
+  margin: 6px 2px 2px 2px;
+}
