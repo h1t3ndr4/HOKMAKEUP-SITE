@@ -7,9 +7,11 @@ This project is a clone of hokmakeup.com, HOK makeup is a website for buying mak
 
 The tech Stack we used for creating this website are :-
 
-- HTML 
-- CSS
-- JavaScript
+<img src="https://cdn-icons-png.flaticon.com/512/226/226269.png" width=20/> HTML
+
+<img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" width=20 /> CSS
+
+<img src="https://cdn-icons-png.flaticon.com/512/1199/1199124.png" width=20/> JavaScript
 
 
 ## Landing Page :
