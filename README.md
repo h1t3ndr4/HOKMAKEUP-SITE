@@ -7,9 +7,9 @@ This project is a clone of hokmakeup.com, HOK makeup is a website for buying mak
 
 The tech Stack we used for creating this website are :-
 
-1. HTML 
-2. CSS
-3. JavaScript
+- HTML 
+- CSS
+- JavaScript
 
 
 ## Landing Page :
