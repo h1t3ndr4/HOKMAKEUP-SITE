@@ -41,15 +41,15 @@ We have added different payment methods, users can choose according to there pre
 
 ## Contributors :
 
-1. Hitendra Mali : https://github.com/h1t3ndr4
+- Hitendra Mali : https://github.com/h1t3ndr4
 
-2. Sanket Thombare : https://github.com/sanket008
+- Sanket Thombare : https://github.com/sanket008
 
-3. Alok Kumar : https://github.com/alokkumar-dev
+- Alok Kumar : https://github.com/alokkumar-dev
 
-4. Dhananjay Dhoke : https://github.com/DhananjayDhoke
+- Dhananjay Dhoke : https://github.com/DhananjayDhoke
 
-5. Saurabh Suman : https://github.com/srvsumanss
+- Saurabh Suman : https://github.com/srvsumanss
 
 
 ## Our blog link :
