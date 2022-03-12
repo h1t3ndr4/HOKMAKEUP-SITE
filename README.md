@@ -9,7 +9,7 @@ The tech Stack we used for creating this website are :-
 
 1. HTML 
 2. CSS
-3. Javascript
+3. JavaScript
 
 
 ## Landing Page :
