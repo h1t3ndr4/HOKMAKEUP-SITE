@@ -13,7 +13,7 @@ The tech Stack we used for creating this website are :-
 
 <img src="https://cdn-icons-png.flaticon.com/512/1199/1199124.png" width=20/> JavaScript
 
- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPh3zjVCZXueD5QsTOekKKhZtPmtYlY3P10KyCqj3tsiR8QQpOevX35oaO287Ef08fCnE&usqp=CAU" width=20/>localStorage
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPh3zjVCZXueD5QsTOekKKhZtPmtYlY3P10KyCqj3tsiR8QQpOevX35oaO287Ef08fCnE&usqp=CAU" width=20/>LocalStorage
 
 
 ## Landing Page :
